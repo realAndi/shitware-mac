@@ -18,7 +18,7 @@ Inspired by https://www.youtube.com/watch?v=57U9AeEgc6k
 - Speakers/Sound output
 - Good mouse control
 
-## Building
+## Building from Source
 
 1. Open in Xcode
 2. Build and Run
