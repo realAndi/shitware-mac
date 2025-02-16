@@ -1,17 +1,20 @@
 //
-//  ShitwareApp.swift
+//  BeepMouseApp.swift
 //  Shitware
 //
 //  Created by andi on 2/15/25.
 //
 
+
 import SwiftUI
 
 @main
-struct ShitwareApp: App {
+struct BeepMouseApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        .windowStyle(.hiddenTitleBar)
+        .defaultSize(width: 100, height: 100)
     }
-}
+} 

@@ -35,16 +35,6 @@
 			path = Shitware;
 			sourceTree = "<group>";
 		};
-		A91A2B242D61751F00B2745D /* ShitwareTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ShitwareTests;
-			sourceTree = "<group>";
-		};
-		A91A2B2E2D61751F00B2745D /* ShitwareUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ShitwareUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				A91A2B122D61751E00B2745D /* Shitware */,
-				A91A2B242D61751F00B2745D /* ShitwareTests */,
-				A91A2B2E2D61751F00B2745D /* ShitwareUITests */,
 				A91A2B112D61751E00B2745D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				A91A2B232D61751F00B2745D /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				A91A2B242D61751F00B2745D /* ShitwareTests */,
-			);
 			name = ShitwareTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				A91A2B2D2D61751F00B2745D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A91A2B2E2D61751F00B2745D /* ShitwareUITests */,
 			);
 			name = ShitwareUITests;
 			packageProductDependencies = (
